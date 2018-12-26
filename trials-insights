@@ -1,0 +1,3 @@
+trial 0 - bullshit
+trial 3 - ft from 30000 and on but with evenly sampled data. auc is only 0.89. but the metric they are using gave it a .216.
+trial 4 - same as trial 3 but with all of the data. the data is strongly skewed in favor of functioning powerlines. score is lower than trial 3. indicates that the data needs to be properly sampled, either down or up sampling. AUC score is 0.94. their metric is lower though 0.164.
