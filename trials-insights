@@ -1,3 +1,14 @@
 trial 0 - bullshit
 trial 3 - ft from 30000 and on but with evenly sampled data. auc is only 0.89. but the metric they are using gave it a .216.
 trial 4 - same as trial 3 but with all of the data. the data is strongly skewed in favor of functioning powerlines. score is lower than trial 3. indicates that the data needs to be properly sampled, either down or up sampling. AUC score is 0.94. their metric is lower though 0.164.
+
+--- TESTS DONE WITH sklearn - fourier componenets bucketed ---
+number fourier components | local score | kaggle score
+10 ft - 0.371 | 0.192
+20 ft - 0.416 | 0.206
+30 ft - 0.425 | 0.216
+40 ft - 0.420 | 0.229
+50 ft - 0.431 | 0.231
+60 ft - 0.427 | 0.224
+
+
