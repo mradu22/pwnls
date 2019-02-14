@@ -205,7 +205,7 @@ def get_full_config(model_name):
 
 
 if __name__ == '__main__':
-    model_name = '21909BA'
+    model_name = '21914AB'
     full_config = get_full_config(model_name)
 
     t0 = time.time()
